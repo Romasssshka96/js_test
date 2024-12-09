@@ -6,8 +6,8 @@ body{
 
 section{
     margin: 100px auto 0 auto ;
-    width: 900px;
-    height: 700px;
+    width: 800px;
+    height: 600px;
     background-color: white;
     padding-top: 100px;
     padding-left: 50px;
@@ -31,10 +31,11 @@ label{
 
 
 .window input{
-    width: 550px;
+    width: 515px;
     height: 40px;
     border-color: #7a7a7a;
     font-size: 19px;
+    padding-left: 10px;
 }
 
 .add_to_list{
@@ -44,6 +45,11 @@ label{
     font-size: 19px;
     border-radius: 5px;
     background: linear-gradient(0deg, rgba(193,193,193,1) 0%, rgba(231,230,230,1) 14%, rgba(255,255,255,1) 100%);
+    transition: 0.5s;
+}
+
+.add_to_list:focus{
+    transform: scale(1.05);
 }
 
 
@@ -67,6 +73,11 @@ label{
     height: 40px;
     border-radius: 5px;
     background: linear-gradient(0deg, rgba(193,193,193,1) 0%, rgba(231,230,230,1) 14%, rgba(255,255,255,1) 100%);
+    transition: 0.5s;
+}
+
+.sort_by_name:focus{
+    transform: scale(1.05);
 }
 
 .sort_by_value{
@@ -76,6 +87,11 @@ label{
     height: 40px;
     border-radius: 5px;
     background: linear-gradient(0deg, rgba(193,193,193,1) 0%, rgba(231,230,230,1) 14%, rgba(255,255,255,1) 100%);
+    transition: 0.5s;
+}
+
+.sort_by_value:focus{
+    transform: scale(1.05);
 }
 
 .delete{
@@ -84,10 +100,15 @@ label{
     height: 40px;
     border-radius: 5px;
     background: linear-gradient(0deg, rgba(193,193,193,1) 0%, rgba(231,230,230,1) 14%, rgba(255,255,255,1) 100%);
+    transition: 0.5s;
+}
+
+.delete:focus{
+    transform: scale(1.05);
 }
 
 .block_to_list{
-    width: 530px;
+    width: 500px;
     height: 300px;
     border: 2px solid rgba(234, 234, 234, 0.8);
     font-size: 19px;
